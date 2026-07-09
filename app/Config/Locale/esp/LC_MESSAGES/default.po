@@ -1,0 +1,516 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2015-10-17 12:54+0000\n"
+"Last-Translator: Claudio Böhm<khbohm@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppController.php:93
+msgid "You are not authorized to access that location."
+msgstr "Usted no esta autorizado a acceder a esta ubicación"
+
+#: Controller/ParametersController.php:23;100
+#: Controller/RegistersController.php:66
+#: Controller/UsersController.php:34;61;116;184
+#: View/Elements/menu-panel.ctp:4
+msgid "Home"
+msgstr "Inicio"
+
+#: Controller/ParametersController.php:24
+msgid "Parameters list"
+msgstr "Lista de Parámetros"
+
+#: Controller/ParametersController.php:38
+msgid "Invalid parameter"
+msgstr "Parámetro Inválido"
+
+#: Controller/ParametersController.php:51
+msgid "The parameter is invalid."
+msgstr "El parámetro es inválido."
+
+#: Controller/ParametersController.php:75;81;85
+msgid "The Parameter has been saved."
+msgstr "El parámetro se ha grabado."
+
+#: Controller/ParametersController.php:78
+msgid "The parameter has been saved, but the image could not be uploaded."
+msgstr "El parámetro se ha guardado, pero la imágen no pudo ser subida."
+
+#: Controller/ParametersController.php:89
+msgid "The Parameter could not be saved. Please, try again."
+msgstr "El parámetro no pudo ser guardado. Reintente por favor."
+
+#: Controller/ParametersController.php:101
+#: View/Parameters/index.ctp:2
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: Controller/RegistersController.php:39;83;111
+msgid "Invalid register"
+msgstr "Registro inválido"
+
+#: Controller/RegistersController.php:54;87
+msgid "The register has been saved."
+msgstr "El registro ha sido guardado."
+
+#: Controller/RegistersController.php:57;90
+msgid "The register could not be saved. Please, try again."
+msgstr "El registro no pudo ser guardado. Reintente por favor."
+
+#: Controller/RegistersController.php:67
+msgid "Registers list"
+msgstr "Lista de registros"
+
+#: Controller/RegistersController.php:68
+#: View/Registers/view.ctp:142
+msgid "New Register"
+msgstr "Nuevo Registro"
+
+#: Controller/RegistersController.php:115
+msgid "The register has been deleted."
+msgstr "El registro ha sido eliminado."
+
+#: Controller/RegistersController.php:117
+msgid "The register could not be deleted. Please, try again."
+msgstr "El registro no pudo eliminarse. Por favor, intente nuevamente."
+
+#: Controller/UsersController.php:35;62;117;185
+msgid "Users list"
+msgstr "Lista de usuarios"
+
+#: Controller/UsersController.php:50;133;203
+msgid "Invalid user"
+msgstr "Usuario inválido"
+
+#: Controller/UsersController.php:102;163
+msgid "The user has been saved."
+msgstr "El usuario ha sido guardado."
+
+#: Controller/UsersController.php:104;165
+msgid "The user has been saved, but the image could not be uploaded."
+msgstr "El usuario ha sido grabado, pero la imagen no pudo ser subida."
+
+#: Controller/UsersController.php:109;176
+msgid "The user could not be saved. Please, try again."
+msgstr "El usuario no pudo ser guardado. Reintente por favor."
+
+#: Controller/UsersController.php:118
+#: View/Registers/edit.ctp:42
+#: View/Registers/view.ctp:144
+#: View/Users/add.ctp:4
+#: View/Users/edit.ctp:4
+msgid "New User"
+msgstr "Nuevo usuario"
+
+#: Controller/UsersController.php:207
+msgid "The user has been deleted."
+msgstr "El usuario ha sido elimnado."
+
+#: Controller/UsersController.php:209
+msgid "The user could not be deleted. Please, try again."
+msgstr "El usuario no pudo ser eliminado. Por favor, intente nuevamente."
+
+#: Controller/UsersController.php:229
+msgid "Email or password is incorrect"
+msgstr "El email o contraseña son incorrectos"
+
+#: Plugin/Bootstrap3/View/Helper/BootstrapModalHelper.php:123
+#: View/Elements/default.ctp:2
+#: View/Elements/Flash/alert_bootstrap.ctp:6
+#: View/Elements/Flash/error.ctp:2
+#: View/Elements/Flash/success.ctp:2
+#: View/Elements/Flash/warning.ctp:2
+#: View/Layouts/alert_danger.ctp:3
+msgid "Close"
+msgstr "Cerrar"
+
+#: Plugin/Bootstrap3/View/Helper/BootstrapNavbarHelper.php:426
+msgid "Toggle navigation"
+msgstr "Alternar navegación"
+
+#: View/Registers/edit.ctp:36
+#: View/Registers/index.ctp:24;37
+#: View/Registers/view.ctp:137
+#: View/Users/index.ctp:16;24
+msgid "Actions"
+msgstr "Acciones"
+
+#: View/Elements/navbar.ctp:52
+#: View/Layouts/bootstrap-login.ctp:67
+#: View/Parameters/index.ctp:28
+#: View/Registers/index.ctp:56
+#: View/Users/index.ctp:37
+#: View/Users/view.ctp:94
+msgid "Edit"
+msgstr "Editar"
+
+#: View/Registers/index.ctp:58
+#: View/Users/index.ctp:39
+#: View/Users/view.ctp:95
+msgid "Are you sure you want to delete %s?"
+msgstr "Está seguro de eliminar a %s?"
+
+#: View/Registers/edit.ctp:39
+#: View/Registers/index.ctp:58
+#: View/Users/index.ctp:39
+#: View/Users/view.ctp:95
+msgid "Delete"
+msgstr "Borrar"
+
+#: View/Parameters/index.ctp:40
+#: View/Registers/index.ctp:77
+#: View/Users/index.ctp:49
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Pág. {:page} de {:pages}, viendo {:current}/{:count}, inicio en {:start}, terminando en {:end}"
+
+#: View/Elements/navbar.ctp:15
+#: View/Pages/home.ctp:20
+#: View/Users/index.ctp:2
+msgid "Users"
+msgstr "Usuarios"
+
+#: View/Elements/navbar.ctp:17
+msgid "List users"
+msgstr "Listar usuarios"
+
+#: View/Elements/navbar.ctp:19
+msgid "New user"
+msgstr "Nuevo usuario"
+
+#: View/Elements/navbar.ctp:24
+#: View/Pages/home.ctp:14
+#: View/Registers/index.ctp:2
+msgid "Registers"
+msgstr "Registros"
+
+#: View/Elements/navbar.ctp:25
+#: View/Layouts/bootstrap-login.ctp:60
+msgid "List"
+msgstr "Listar"
+
+#: View/Elements/navbar.ctp:26
+msgid "New"
+msgstr "Nuevo"
+
+#: View/Elements/navbar.ctp:28
+msgid "Import excel"
+msgstr "Importar Excel"
+
+#: View/Elements/navbar.ctp:29
+msgid "Export excel"
+msgstr "Exportar Excel"
+
+#: View/Elements/navbar.ctp:33
+msgid "Themes"
+msgstr "Temas"
+
+#: View/Elements/navbar.ctp:53
+#: View/Layouts/bootstrap-login.ctp:68
+msgid "Logout"
+msgstr "Salir"
+
+#: View/Pages/home.ctp:8
+msgid "Main Menu"
+msgstr "Menú Principal"
+
+#: View/Parameters/edit.ctp:25
+msgid "Value"
+msgstr "Valor"
+
+#: View/Parameters/edit.ctp:31
+#: View/Registers/add.ctp:110
+msgid "Save"
+msgstr "Guardar"
+
+#: View/Registers/add.ctp:18
+msgid "Add Register"
+msgstr "Agregar Registro"
+
+#: View/Registers/add.ctp:23
+#: View/Registers/index.ctp:22;35
+msgid "Date"
+msgstr "Fecha"
+
+#: View/Registers/add.ctp:113
+msgid "Reset"
+msgstr "Limpiar"
+
+#: View/Registers/edit.ctp:4
+#: View/Registers/view.ctp:139
+msgid "Edit Register"
+msgstr "Editar Registro"
+
+msgid "Confiscated Why"
+msgstr "Motivo del decomiso"
+
+msgid "Veterinary"
+msgstr "Veterinario"
+
+msgid "Notes"
+msgstr "Notas"
+
+msgid "Edit Register nº %s"
+msgstr "Editar Registro nº %s"
+
+msgid "Register nº %s"
+msgstr "Registro nº %s"
+
+msgid "The * indicates required fields."
+msgstr "El * indica campos requeridos."
+
+#: View/Registers/edit.ctp:33
+#: View/Users/add.ctp:23
+#: View/Users/edit.ctp:24
+msgid "Submit"
+msgstr "Guardar"
+
+#: View/Registers/edit.ctp:39
+#: View/Registers/view.ctp:140
+msgid "Are you sure you want to delete # %s?"
+msgstr "Está seguro de eliminar a %s?"
+
+#: View/Registers/edit.ctp:40
+#: View/Registers/view.ctp:141
+msgid "List Registers"
+msgstr "Listar Registros"
+
+#: View/Registers/edit.ctp:41
+#: View/Registers/view.ctp:143
+msgid "List Users"
+msgstr "Listar usuarios"
+
+#: View/Registers/index.ctp:5
+msgid "From date"
+msgstr "Desde fecha"
+
+#: View/Registers/index.ctp:6
+msgid "To date"
+msgstr "Hasta fecha"
+
+#: View/Registers/index.ctp:7
+#: View/Registers/view.ctp:69
+msgid "Province"
+msgstr "Provincia"
+
+#: View/Registers/index.ctp:8
+#: View/Registers/view.ctp:64
+msgid "Locality"
+msgstr "Localidad"
+
+#: View/Registers/index.ctp:9
+#: View/Users/index.ctp:6
+msgid "Search"
+msgstr "Buscar"
+
+#: View/Registers/index.ctp:53
+#: View/Users/index.ctp:35
+msgid "View"
+msgstr "Ver"
+
+#: View/Registers/index.ctp:66
+msgid "There are no records that meet the conditions."
+msgstr "No hay registros que cumplan las condiciones."
+
+#: View/Registers/index.ctp:70
+msgid "New register"
+msgstr "Nuevo registro"
+
+#: View/Registers/view.ctp:2
+msgid "Register"
+msgstr "Registro"
+
+#: View/Registers/view.ctp:4
+#: View/Users/view.ctp:12
+msgid "Id"
+msgstr "Nº"
+
+#: View/Registers/view.ctp:9
+msgid "Plant Nro"
+msgstr "Establecimiento Nº"
+
+#: View/Registers/view.ctp:14
+msgid "Oncca Nro"
+msgstr "Nº RUCA"
+
+#: View/Registers/view.ctp:19
+msgid "Troop Nro"
+msgstr "Nº Tropa"
+
+#: View/Registers/view.ctp:24
+msgid "Dopro Nro"
+msgstr "Nº DOPRO"
+
+#: View/Registers/view.ctp:29
+msgid "Dte Nro"
+msgstr "Nº DTE"
+
+#: View/Registers/view.ctp:34
+msgid "Romaneo Oncca Nro"
+msgstr "Nº Romaneo ONCCA"
+
+#: View/Registers/view.ctp:39
+msgid "Owner"
+msgstr "Titular"
+
+#: View/Registers/view.ctp:44
+msgid "Cuit Nro"
+msgstr "CUIT"
+
+#: View/Registers/view.ctp:49
+msgid "Renspa Nro"
+msgstr "Nº RENSPA"
+
+#: View/Registers/view.ctp:54
+msgid "Plant"
+msgstr "Planta"
+
+#: View/Registers/view.ctp:59
+#: View/Users/view.ctp:50
+msgid "Department"
+msgstr "Departamento"
+
+#: View/Registers/view.ctp:74
+msgid "Consignee"
+msgstr "Consignatario"
+
+#: View/Registers/view.ctp:79
+msgid "Consignee Oncca Nro"
+msgstr "Nº ONCCA Consignatario"
+
+#: View/Registers/view.ctp:84
+msgid "Species"
+msgstr "Especie"
+
+#: View/Registers/view.ctp:89
+msgid "Enter Kg"
+msgstr "Kg de ingreso"
+
+#: View/Registers/view.ctp:94
+msgid "Category"
+msgstr "Categoría"
+
+#: View/Registers/view.ctp:99
+msgid "Confiscated Organs"
+msgstr "Cant. órganos decomisados"
+
+#: View/Registers/view.ctp:104
+msgid "Organs Names"
+msgstr "Nombre de los órganos"
+
+#: View/Registers/view.ctp:109
+msgid "Organs Patology"
+msgstr "Patología de los órganos"
+
+#: View/Registers/view.ctp:114
+msgid "End Kg"
+msgstr "Kg final"
+
+#: View/Registers/view.ctp:119
+msgid "Meat Target"
+msgstr "Destino de la carne"
+
+#: View/Registers/view.ctp:124
+msgid "User"
+msgstr "Usuario"
+
+#: View/Registers/view.ctp:129
+msgid "Created"
+msgstr "Creado"
+
+#: View/Registers/view.ctp:140
+msgid "Delete Register"
+msgstr "Eliminar registro"
+
+#: View/Users/login.ctp:8;29
+msgid "Login"
+msgstr "Ingresar"
+
+#: View/Users/login.ctp:20
+#: View/Users/view.ctp:37
+msgid "Email"
+msgstr "Email"
+
+#: View/Users/login.ctp:25
+msgid "Password"
+msgstr "Contraseña"
+
+#: View/Users/login.ctp:33
+msgid "Forgot password"
+msgstr "Olvidé la contraseña"
+
+#: View/Users/view.ctp:18
+msgid "Name"
+msgstr "Nombre"
+
+#: View/Users/view.ctp:23
+msgid "Lastname"
+msgstr "Apellido"
+
+#: View/Users/view.ctp:28
+msgid "Role"
+msgstr "Rol"
+
+#: Model/Register.php:validation for field plant_nro;validation for field oncca_nro;validation for field troop_nro;validation for field dopro_nro;validation for field dte_nro;validation for field romaneo_oncca_nro;validation for field cuit_nro;validation for field renspa_nro;validation for field consignee;validation for field consignee_oncca_nro;validation for field end_kg;validation for field user_id
+msgid "numeric"
+msgstr "Por favor, ingrese un número."
+
+#: Model/Register.php:validation for field owner;validation for field plant;validation for field department;validation for field locality;validation for field province;validation for field category;validation for field organs_names;validation for field organs_patology;validation for field meat_target
+msgid "notBlank"
+msgstr "Este campo no puede quedar en blanco."
+
+#: Model/Register.php:validation for field species
+msgid "The species must be caprino, porcino, ovino, conejo or aves."
+msgstr "La especie sebe ser caprino, porcino, ovino, conejo o aves."
+
+#: Model/Register.php:validation for field enter_kg
+msgid "Please, enter the weight at starting"
+msgstr "Por favor, ingrese el peso al ingreso."
+
+#: Model/Register.php:validation for field confiscated_organs
+msgid "naturalNumber"
+msgstr "Este campo debe ser un número natural."
+
+#: Model/User.php:validation for field name;validation for field lastname
+msgid "This field cannot be left blank"
+msgstr "Este campo no puede quedar en blanco."
+
+#: Model/User.php:validation for field password
+msgid "Between 6 to 12 characters"
+msgstr "Ingrese entre 6 y 12 caracteres."
+
+#: Model/User.php:validation for field role
+msgid "inList"
+msgstr "El rol debe ser A:dministrador o U:suario"
+
+#: Model/User.php:validation for field email
+msgid "Please supply a valid email address."
+msgstr "Por favor, ingrese una dirección de email válida."
+
+#: Model/User.php:validation for field image_file
+msgid "Please supply a valid image."
+msgstr "La imágen debe ser 'jpeg','jpg','png' o 'gif'"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Import from excel"
+msgstr "Importar de excel"
+
+msgid "Import excel"
+msgstr "Importar excel"
+
+msgid "List PDF"
+msgstr "Generar PDF"
+
+msgid "List to PDF"
+msgstr "Generar PDF"
+
+msgid "Any"
+msgstr "Cualquiera"
